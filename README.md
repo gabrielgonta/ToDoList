@@ -1,45 +1,43 @@
-# 📝 Todolist - Version Fullstack React
+# 📝 Todolist - Fullstack React Version
 
 ## Description
 
-Bienvenue dans Todolist - Version Fullstack React ! 🎉
-Ce projet est une application de gestion de tâches (todolist), développée en utilisant React pour le front-end et une architecture back-end robuste, permettant de gérer efficacement vos tâches quotidiennes.
+Welcome to Todolist - Fullstack React Version! 🎉 
+This project is a task management application (todolist), developed using React for the front end and a robust back-end architecture, allowing you to efficiently manage your daily tasks.
 
-L'application reprend les principes d'une todolist classique, mais avec une interface moderne et intuitive. Grâce à une expérience utilisateur fluide, vous pouvez facilement ajouter, modifier ou supprimer des tâches, et garder une trace de vos priorités, directement depuis votre navigateur.
+The application follows the principles of a classic todolist, but with a modern and intuitive interface. With a smooth user experience, you can easily add, edit, or delete tasks, and keep track of your priorities directly from your browser.
 
-## Prérequis
+## Prerequisites
 Installer NodeJs : https://nodejs.org/fr/
 
 ## Installation
 
-Cloner le répo :
+Clone the repository :
 
 ```
-https://github.com/gabrielgonta/ToDoList.git
+git clone https://github.com/gabrielgonta/ToDoList.git
 ```
 
-Se rendre à la base du répertoire où se trouve le fichier **'package.json'** puis lancer la commande pour installer les dépendences :
+Navigate to the root directory where the 'package.json' file is located, then run the command to install the dependencies :
 
 ```
 cd ToDoList
 npm install
 ```
 
-## Déploiement
+## Deployment
 
-Une fois que les dépendances ont été installées vous pouvez lancer l'application :
+Once the dependencies are installed, you can start the application :
 
 ```
 npm start
 ```
 
-Par défaut le serveur écoute sur le port **3000**. 
+By default, the server listens on port **3000**. 
 
-Vous pouvez à présent accèder à l'application via cette adressse : http://localhost:3000/ :
+You can now access the application via this address: http://localhost:3000/ :
 
 ## How I try to stand out
-
-### Features added independently of the YouCode course
 
     ✔ Connecting application with Firebase
     ✔ User authentication
@@ -78,8 +76,7 @@ Vous pouvez à présent accèder à l'application via cette adressse : http://lo
 
 ## Configuration Firebase
 
-Pour que l'application fonctionne correctement avec votre propre base de données Firebase, vous devez remplacer les paramètres de configuration dans le fichier src/config/firebase.js avec les vôtres.
-Dans src/config/firebase.js, vous trouverez un objet de configuration Firebase qui ressemble à ceci :
+To have the application properly work with your own Firebase database, you must replace the configuration settings in the file src/config/firebase.js with your own. In this file, you'll find a Firebase configuration object that looks like this:
 
 ```
 const firebaseConfig = {
@@ -93,16 +90,16 @@ const firebaseConfig = {
 
 ```
 
-## Sécurité
+## Security
 
-Avec les règles de sécurité de Firebase, votre compte, vos données et vos fichiers ne tomberont pas entre de mauvaises mains.
+With Firebase security rules, your account, data, and files won’t fall into the wrong hands.
 
-### Comment ça marche
+### How it works
 
-Les règles de sécurité Firebase se dressent entre vos données et les utilisateurs malveillants.
+Firebase security rules act as a barrier between your data and malicious users.
 
-Les règles de sécurité Firebase fonctionnent en faisant correspondre un modèle aux chemins de base de données, puis en appliquant des conditions personnalisées pour autoriser l'accès aux données sur ces chemins. Toutes les règles des fonctionnalités Firebase disposent d'un composant de correspondance de chemin et d'une instruction conditionnelle autorisant l'accès en lecture ou en écriture. Des règles sont définies pour chaque fonctionnalité Firebase de cette application afin de garantir que vous seul puissiez accéder aux informations de votre compte.
+Firebase security rules work by matching a pattern to database paths and then applying custom conditions to allow data access at those paths. Every Firebase feature rule has a path-matching component and a conditional statement that allows read or write access. Rules are defined for each Firebase feature in this application to ensure that only you can access your account information.
 
-## Auteurs
+## Authors
 
 * **Gabriel Gonta** - *Initial work* - [ToDoList](https://github.com/gabrielgonta/ToDoList.git)
