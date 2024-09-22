@@ -7,6 +7,36 @@ Ce projet est une application de gestion de tâches (todolist), développée en 
 
 L'application reprend les principes d'une todolist classique, mais avec une interface moderne et intuitive. Grâce à une expérience utilisateur fluide, vous pouvez facilement ajouter, modifier ou supprimer des tâches, et garder une trace de vos priorités, directement depuis votre navigateur.
 
+## Prérequis
+Installer NodeJs : https://nodejs.org/fr/
+
+## Installation
+
+Cloner le répo :
+
+```
+https://github.com/gabrielgonta/ToDoList.git
+```
+
+Se rendre à la base du répertoire où se trouve le fichier **'package.json'** puis lancer la commande pour installer les dépendences :
+
+```
+cd ToDoList
+npm install
+```
+
+## Déploiement
+
+Une fois que les dépendances ont été installées vous pouvez lancer l'application :
+
+```
+npm start
+```
+
+Par défaut le serveur écoute sur le port **3000**. 
+
+Vous pouvez à présent accèder à l'application via cette adressse : http://localhost:3000/ :
+
 ## How I try to stand out
 
 ### Features added independently of the YouCode course
@@ -63,52 +93,16 @@ const firebaseConfig = {
 
 ```
 
-## Security
+## Sécurité
 
-With Firebase security rules, your account, data and files will not fall into the wrong hands.
+Avec les règles de sécurité de Firebase, votre compte, vos données et vos fichiers ne tomberont pas entre de mauvaises mains.
 
-### How it works
+### Comment ça marche
 
-Firebase Security Rules stand between your data and malicious users.
+Les règles de sécurité Firebase se dressent entre vos données et les utilisateurs malveillants.
 
-Firebase Security Rules work by matching a pattern against database paths, and then applying custom conditions to allow access to data at those paths. All Rules across Firebase features have a path-matching component and a conditional statement allowing read or write access. Rules are defined for each Firebase feature in this app to ensure only you can access your account's information.
-
-## Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Les règles de sécurité Firebase fonctionnent en faisant correspondre un modèle aux chemins de base de données, puis en appliquant des conditions personnalisées pour autoriser l'accès aux données sur ces chemins. Toutes les règles des fonctionnalités Firebase disposent d'un composant de correspondance de chemin et d'une instruction conditionnelle autorisant l'accès en lecture ou en écriture. Des règles sont définies pour chaque fonctionnalité Firebase de cette application afin de garantir que vous seul puissiez accéder aux informations de votre compte.
 
 ## Auteurs
 
-* **Gabriel Gonta** - *Initial work* - [BurgerQuizGame](https://github.com/gabrielgonta/ToDoList.git)
+* **Gabriel Gonta** - *Initial work* - [ToDoList](https://github.com/gabrielgonta/ToDoList.git)
